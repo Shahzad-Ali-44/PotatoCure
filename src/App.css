@@ -91,6 +91,13 @@ body {
   margin-bottom: 1rem;
 }
 
+@media (max-width: 480px) {
+  .file-input {
+    max-width: 250px;
+    padding: 0.4rem;
+  }
+}
+
 .upload-button {
   padding: 0.6rem 1.5rem;
   background-color: #2f855a;
