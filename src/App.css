@@ -710,9 +710,26 @@ body {
     filter: none !important;
     backdrop-filter: none !important;
     text-shadow: none !important;
-    transform: none !important;
-    animation: none !important;
-    transition: none !important;
+  }
+  
+  .hamburger {
+    transition: all 0.3s ease !important;
+  }
+  
+  .hamburger span {
+    transition: all 0.3s ease !important;
+  }
+  
+  .hamburger.active span:nth-child(1) {
+    transform: rotate(45deg) translate(6px, 6px) !important;
+  }
+  
+  .hamburger.active span:nth-child(2) {
+    opacity: 0 !important;
+  }
+  
+  .hamburger.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(6px, -6px) !important;
   }
   
   .container {
@@ -738,10 +755,7 @@ body {
 
   .hero-title {
     font-size: 42px;
-    background: white !important;
-    background-clip: unset !important;
-    -webkit-background-clip: unset !important;
-    -webkit-text-fill-color: white !important;
+    color: white !important;
   }
 
   .hero-subtitle {
@@ -766,10 +780,7 @@ body {
 
   .stat-number {
     font-size: 28px;
-    background: white !important;
-    background-clip: unset !important;
-    -webkit-background-clip: unset !important;
-    -webkit-text-fill-color: white !important;
+    color: white !important;
   }
 
   .stat-label {
@@ -821,10 +832,7 @@ body {
   }
   
   .logo-text {
-    background: white !important;
-    background-clip: unset !important;
-    -webkit-background-clip: unset !important;
-    -webkit-text-fill-color: white !important;
+    color: white !important;
   }
   
   .footer {
@@ -832,10 +840,7 @@ body {
   }
   
   .footer-logo-text {
-    background: #22c55e !important;
-    background-clip: unset !important;
-    -webkit-background-clip: unset !important;
-    -webkit-text-fill-color: #22c55e !important;
+    color: #22c55e !important;
   }
 
   .upload-text {
