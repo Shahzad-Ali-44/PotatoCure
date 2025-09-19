@@ -80,7 +80,7 @@ function App() {
            
             <header className="header">
                 <div className="container">
-                    <div className="logo">
+                    <div className="logo" onClick={() => window.location.href = '/'} style={{ cursor: 'pointer' }}>
                         <img src="/favicon.ico" alt="PotatoCure Logo" className="logo-icon" />
                         <span className="logo-text">PotatoCure</span>
                     </div>
