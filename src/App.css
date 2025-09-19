@@ -326,7 +326,6 @@ body {
   text-align: center;
   margin-bottom: 20px;
   color: #15803d;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .section-subtitle {
@@ -347,7 +346,7 @@ body {
   background: #ffffff;
   margin-bottom: 40px;
   position: relative;
-  box-shadow: 0 4px 12px rgba(34, 197, 94, 0.1);
+  box-shadow: 0 2px 4px rgba(34, 197, 94, 0.1);
 }
 
 .upload-area:hover,
@@ -377,7 +376,6 @@ body {
 .upload-icon {
   font-size: 64px;
   opacity: 0.7;
-  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.1));
 }
 
 .upload-text {
@@ -401,7 +399,6 @@ body {
 
 .file-icon {
   font-size: 64px;
-  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.1));
 }
 
 .file-name {
@@ -432,7 +429,7 @@ body {
   align-items: center;
   justify-content: center;
   gap: 15px;
-  box-shadow: 0 4px 12px rgba(34, 197, 94, 0.3);
+  box-shadow: 0 2px 4px rgba(34, 197, 94, 0.3);
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
@@ -467,7 +464,7 @@ body {
   padding: 40px;
   margin-top: 40px;
   border: 2px solid #22c55e;
-  box-shadow: 0 8px 25px rgba(34, 197, 94, 0.15);
+  box-shadow: 0 2px 4px rgba(34, 197, 94, 0.15);
   position: relative;
 }
 
@@ -477,7 +474,6 @@ body {
   text-align: center;
   margin-bottom: 30px;
   color: #15803d;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .result-grid {
@@ -491,7 +487,7 @@ body {
   padding: 25px;
   border-radius: 15px;
   border-left: 5px solid #22c55e;
-  box-shadow: 0 4px 12px rgba(34, 197, 94, 0.1);
+  box-shadow: 0 1px 2px rgba(34, 197, 94, 0.1);
 }
 
 .result-item.full-width {
