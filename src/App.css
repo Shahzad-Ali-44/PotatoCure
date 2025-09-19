@@ -767,6 +767,35 @@ body {
   .upload-area {
     padding: 40px 20px;
     border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(34, 197, 94, 0.1);
+  }
+  
+  .upload-icon {
+    filter: none;
+  }
+  
+  .file-icon {
+    filter: none;
+  }
+  
+  .section-title {
+    text-shadow: none;
+  }
+  
+  .result-title {
+    text-shadow: none;
+  }
+  
+  .analyze-btn {
+    box-shadow: 0 2px 4px rgba(34, 197, 94, 0.3);
+  }
+  
+  .result-container {
+    box-shadow: 0 2px 4px rgba(34, 197, 94, 0.15);
+  }
+  
+  .result-item {
+    box-shadow: 0 1px 2px rgba(34, 197, 94, 0.1);
   }
 
   .upload-text {
